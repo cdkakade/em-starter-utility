@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.7</version>
+		<version>3.2.3</version>
 	</parent>
 	<groupId>expense.manager</groupId>
 	<artifactId>starter-utility</artifactId>
@@ -14,7 +14,7 @@
 	<name>starter-utility</name>
 	<description>Starter project for utilities</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 
@@ -42,7 +42,7 @@
 			<plugin>
 				<groupId>io.spring.javaformat</groupId>
 				<artifactId>spring-javaformat-maven-plugin</artifactId>
-				<version>0.0.35</version>
+				<version>0.0.41</version>
 				<executions>
 					<execution>
 						<phase>validate</phase>
